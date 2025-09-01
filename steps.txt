@@ -1,0 +1,11 @@
+node ka boiler plate likho.
+html & css se frontend ready karo.
+ab ek folder banao "files" root level pe jisme apan apna input data save karenge.
+ab apan fs module se files folder ko read karvayenge.
+ab agar apan ko kisi input ya textarea ka data read karna hota h toh apan usko name dete hai.
+fir apan html me likhenge ki agar files kaise chalna hai.
+yeh sab likhne ke baad apan ko index.js me code likhna hai jis se apan jo files read kari hai voh frontend pe display kar paaye.
+or fir apan ko "/create" se vapas "/" wale route pe aana hai.
+ab bas yeh bacha hai ki "read more" pe click karke apan saara textarea padh paaye.
+jiske liye apan ko ek 'show.ejs' file create karni padegi jisme apan yeh sab show karenge.
+or index.js me code likhna hoga ki kaise aayega yeh sab jo apan "fs.readFile" ki help se hoga. 
