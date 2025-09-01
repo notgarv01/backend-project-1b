@@ -26,7 +26,7 @@ app.get('/file/:filename', (req, res) => {
 });
 
 app.post('/create', (req, res) => {
-  fs.writeFile(path.join(__dirname, './files', `${req.body.title}.txt`), req.body.details, (err) => {
+  fs.writeFile(path.join(__dirname, '../files', `${req.body.title}.txt`), req.body.details, (err) => {
     if (err) return res.status(500).send('Error creating file');
     res.redirect('/');
   });
